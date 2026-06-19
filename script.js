@@ -8,15 +8,20 @@ Jestem Nicki.
 
 Tyle się dzieje tutaj na Pyrkonie, że kompletnie się zgubiłam…`,
 
-`Mój mąż, Loczek, powiedział, 
+`
+Mój mąż, Loczek, powiedział, 
 że jeśli tak się stanie, będzie na mnie czekał`,
 
-`On czeka na mnie przy toitoijccch `,
+`
+On czeka na mnie przy toitoijccch `,
 
-`Problem w tym, że… `,
+`
+Problem w tym, że… `,
     
-`Nie mam pojęcia gdzie to jest.....`,
-`Pomożesz mi bezpiecznie do niego dotrzeć?`
+`
+Nie mam pojęcia gdzie to jest.....`,
+`
+Pomożesz mi bezpiecznie do niego dotrzeć?`
 
 ];
 
@@ -82,9 +87,11 @@ function showConsent(){
 
             <div class="rodo">
                 Udział w queście jest dobrowolny. 
-                Wydarzenie może być nagrywane i publikowane 
-                w mediach społecznościowych jako materiał 
-                humorystyczny lub reportażowy 
+                Wydarzenie może być nagrywane 
+                i publikowane 
+                w mediach społecznościowych 
+                jako materiał humorystyczny 
+                lub reportażowy 
                 z wydarzenia publicznego. 
                 Kontynuując, akceptujesz udział 
                 w tej historii.
