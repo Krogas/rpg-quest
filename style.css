@@ -17,7 +17,7 @@ color:#3a2616;
 
 }
 
-/* 🔥 TŁO RPG */
+
 .fog{
 position:fixed;
 inset:0;
@@ -265,6 +265,15 @@ color:#5a2f14;
     word-break:break-word;
 }
 #text{
-    font-size: 1.2rem;
-    line-height: 1.7;
+    text-align:left;
+    font-size:1.2rem;
+    line-height:1.7;
+}
+
+.rodo{
+    margin-top:20px;
+    font-size:0.75rem;
+    opacity:0.65;
+    line-height:1.4;
+    text-align:left;
 }
