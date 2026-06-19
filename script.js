@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 const pages = [
 
 `
-Hej jestem Nicki.
+Hej, jestem Nicki.
 
 Tyle się dzieje tutaj na Pyrkonie, że kompletnie się zgubiłam…`,
 
@@ -104,14 +104,13 @@ window.finish = function(){
 
     textEl.innerHTML = `
         <div class="final">
-            ✔ QUEST ACCEPTED
-            Znajdź męża Nici mówił, że 
-            będzie przy <b>tojtojiiicach</b>
+    ✔ QUEST ACCEPTED
+    Znajdź męża Nici mówił, że 
+    będzie przy <b>tojtojiiicach</b>
+
             
-            POWIEDZ TO NA GŁOS: 
-            <b>${code}</b>
-
-
+    POWIEDZ TO NA GŁOS: 
+    <b>${code}</b>
         </div>
     `;
 };
