@@ -2,24 +2,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const pages = [
 
-`Cześć.
+`Hej!
 
-Nazywam się Kasia.
+Jestem Nicki.
 
-To jest mój QUEST LOG.`,
+Tyle się dzieje tutaj na Pyrkonie, że kompletnie się zgubiłam…`,
 
-`Zaginął mój mąż.
+`Mój mąż, Loczek, powiedział, 
+że jeśli tak się stanie, będzie na mnie czekał`,
 
-Ostatni raz widziany był w miejscu,
-gdzie zaczyna się zabawa i kończy rozsądek.`,
+`On czeka na mnie przy toitoijccch `,
 
-`Twoim zadaniem będzie:
-- odnaleźć ślady
-- podjąć decyzję
-- wejść w historię`,
-
-`Jebać biede`
-
+`Problem w tym, że… `,
+    
+`Nie mam pojęcia gdzie to jest.....`,
+`Pomożesz mi bezpiecznie do niego dotrzeć?`
 
 ];
 
