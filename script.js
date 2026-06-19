@@ -82,14 +82,14 @@ function showConsent(){
             <h2>⚠ WARUNKI QUESTU</h2>
 
             <div class="rodo">
-                Udział w queście jest dobrowolny. 
-                Wydarzenie może być nagrywane i publikowane 
+                Udział  jest dobrowolny. 
+                Wydarzenie może być 
+                nagrywane i publikowane 
                 w mediach społecznościowych 
-                jako materiał humorystyczny 
-                lub reportażowy 
+                jako materiał humorystyczny
                 z wydarzenia publicznego. 
-                Kontynuując, akceptujesz udział 
-                w tej historii.
+                Kontynuując, akceptujesz 
+                udział w tej historii.
             </div>
 
             <button class="quest-btn" onclick="finish()">
