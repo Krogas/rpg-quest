@@ -14,8 +14,7 @@ przy toitoijccch `,
 
 `
 Problem w tym, że… 
-Nie mam pojęcia gdzie to jest.....`,
-`
+Nie mam pojęcia gdzie to jest.....
 Pomożesz mi bezpiecznie do niego dotrzeć?`
 
 ];
