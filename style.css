@@ -53,9 +53,24 @@ padding:20px;
 }
 
 .paper{
-width:850px;
-max-width:95%;
-min-height:520px;
+    width: min(850px, 92vw);
+    min-height: 520px;
+
+    padding: 26px 18px;
+
+    border-radius: 16px;
+
+    background:
+        radial-gradient(circle at top,
+        rgba(255,250,235,0.96),
+        rgba(240,220,185,0.96));
+
+    border: 1px solid rgba(120,80,40,0.25);
+
+    box-shadow:
+        0 30px 120px rgba(0,0,0,0.65),
+        inset 0 0 60px rgba(120,80,40,0.2);
+}
 
 ```
 background:
@@ -230,4 +245,26 @@ color:#5a2f14;
     border-radius:10px;
     cursor:pointer;
     letter-spacing:1px;
+}
+
+.quest-scroll{
+    max-width:600px;
+    margin:0 auto;
+    text-align:center;
+
+    font-size:1.1rem;
+    line-height:1.8;
+
+    white-space:pre-wrap;
+
+    letter-spacing:0.3px;
+}
+
+/* zamiana | na ładne przerwy wizualne */
+.quest-scroll{
+    word-break:break-word;
+}
+#text{
+    font-size: 1.2rem;
+    line-height: 1.7;
 }
