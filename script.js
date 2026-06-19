@@ -2,9 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const pages = [
 
-`Hej!
-
-Jestem Nicki.
+`
+Hej jestem Nicki.
 
 Tyle się dzieje tutaj na Pyrkonie, że kompletnie się zgubiłam…`,
 
