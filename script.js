@@ -10,7 +10,7 @@ Tyle się dzieje tutaj na Pyrkonie, że kompletnie się zgubiłam…`,
 `
 Mój mąż, Loczek, powiedział, 
 że jeśli tak się stanie, będzie na mnie czekał
-przy toitoijccch `,
+przy <b>toitoijccch</b> `,
 
 `
 Problem w tym, że… 
@@ -76,9 +76,6 @@ function showConsent(){
 
     textEl.innerHTML = `
         <div class="quest-panel">
-
-            <h2>⚠ WARUNKI QUESTU</h2>
-
             <div class="rodo">
                 Udział  jest dobrowolny. 
                 Wydarzenie może być 
@@ -108,8 +105,11 @@ window.finish = function(){
     textEl.innerHTML = `
         <div class="final">
             ✔ QUEST ACCEPTED
-
-            Tajny KOD POWIEDZ TO NA GŁOS: <b>${code}</b>
+            Znajdź męża Nici mówił, że 
+            będzie przy <b>tojtojiiicach</b>
+            
+            POWIEDZ TO NA GŁOS: 
+            <b>${code}</b>
 
 
         </div>
