@@ -80,7 +80,10 @@ document.getElementById("actions").style.display = "none";
         <div class="quest-panel">
             <h2>⚠ WARUNKI QUESTU</h2>
             <div class="quest-line">
-                Zgoda wiąże się ze zgodą na udostępnienie wizerunku.
+                Udział w queście jest dobrowolny. 
+                Wydarzenie może być nagrywane i publikowane 
+                w mediach społecznościowych jako materiał 
+                humorystyczny/reportażowy z wydarzenia publicznego.
             </div>
             <button class="quest-btn" onclick="finish()">
                 ACCEPT QUEST
