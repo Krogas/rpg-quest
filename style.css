@@ -1,0 +1,233 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+
+```
+font-family:Georgia, serif;
+color:#3a2616;
+```
+
+}
+
+/* 🔥 TŁO RPG */
+.fog{
+position:fixed;
+inset:0;
+
+```
+background:
+    url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1950&q=80");
+
+background-size:cover;
+background-position:center;
+
+filter:contrast(1.1) brightness(0.8);
+```
+
+}
+
+/* ciemna warstwa RPG */
+.fog::after{
+content:"";
+position:absolute;
+inset:0;
+background:rgba(30,20,10,0.55);
+}
+
+/* KARTA */
+.container{
+position:relative;
+z-index:2;
+width:100%;
+display:flex;
+justify-content:center;
+padding:20px;
+}
+
+.paper{
+width:850px;
+max-width:95%;
+min-height:520px;
+
+```
+background:
+    radial-gradient(circle at top,
+    rgba(255,250,230,0.95),
+    rgba(240,220,180,0.95));
+
+border:1px solid rgba(90,60,30,0.3);
+
+box-shadow:
+    0 25px 80px rgba(0,0,0,0.6),
+    inset 0 0 60px rgba(120,80,40,0.25);
+
+border-radius:14px;
+
+padding:50px;
+
+animation: fadeIn .8s ease;
+```
+
+}
+
+/* HEADER RPG */
+.header{
+text-align:center;
+margin-bottom:30px;
+}
+
+.seal{
+font-size:1.2rem;
+letter-spacing:3px;
+color:#6b4a2c;
+}
+
+.subtitle{
+font-size:1.8rem;
+margin-top:10px;
+}
+
+/* TEKST */
+#text{
+font-size:1.4rem;
+line-height:1.8;
+min-height:240px;
+white-space:pre-wrap;
+}
+
+/* PRZYCISKI */
+#actions{
+margin-top:30px;
+text-align:right;
+}
+
+button{
+background:#5a3b20;
+color:white;
+border:none;
+padding:14px 28px;
+border-radius:10px;
+cursor:pointer;
+font-size:1rem;
+letter-spacing:1px;
+transition:.2s;
+}
+
+button:hover{
+transform:scale(1.05);
+background:#6a4425;
+}
+
+.hidden{
+display:none;
+}
+
+/* KURSOR RPG */
+.cursor{
+animation:blink .8s infinite;
+}
+
+@keyframes blink{
+50%{opacity:0;}
+}
+
+/* FADE */
+@keyframes fadeIn{
+from{opacity:0; transform:scale(.98);}
+to{opacity:1; transform:scale(1);}
+}
+
+/* FORM */
+input{
+width:100%;
+padding:12px;
+margin-top:10px;
+border-radius:8px;
+border:1px solid #b18b5a;
+background:rgba(255,255,255,0.6);
+}
+
+label{
+font-size:1rem;
+}
+
+/* FINAL SCREEN */
+.final{
+text-align:center;
+font-size:1.3rem;
+line-height:2;
+}
+
+.code{
+font-size:2rem;
+margin-top:10px;
+color:#5a2f14;
+}
+
+.quest-panel{
+    text-align:center;
+    padding:10px 20px;
+}
+
+.quest-panel h2{
+    margin-bottom:20px;
+    letter-spacing:2px;
+    color:#5a3a1e;
+}
+
+.quest-line{
+    margin-bottom:25px;
+    font-size:1.1rem;
+    opacity:0.9;
+}
+
+.quest-checkbox{
+    display:block;
+    text-align:left;
+    margin:20px auto;
+    max-width:600px;
+    font-size:1rem;
+}
+
+.quest-checkbox input{
+    margin-right:10px;
+    transform:scale(1.2);
+}
+
+.quest-input{
+    margin-top:20px;
+    max-width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+}
+
+.quest-input input{
+    width:100%;
+    padding:12px;
+    margin-top:8px;
+
+    border-radius:8px;
+    border:1px solid #b18b5a;
+
+    background:rgba(255,255,255,0.7);
+}
+
+.quest-btn{
+    margin-top:30px;
+    background:#5a3a1e;
+    color:white;
+    border:none;
+    padding:14px 30px;
+    border-radius:10px;
+    cursor:pointer;
+    letter-spacing:1px;
+}
