@@ -88,7 +88,7 @@ function showConsent(){
             </div>
 
             <button class="questAcc-btn" onclick="finish()">
-                ACCEPT QUEST
+ACCEPT QUEST
             </button>
 
         </div>
