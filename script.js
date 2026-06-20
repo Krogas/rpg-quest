@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-const place = "tojtojiiicach";
+const place = "ANANASIE";
 const pages = [
 
 `
