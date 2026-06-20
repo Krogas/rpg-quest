@@ -278,17 +278,8 @@ color:#5a2f14;
 }
 
 .questAcc-btn{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    margin:30px auto 0;
-
-    background:#5a3a1e;
-    color:white;
-    border:none;
-    padding:14px 30px;
-    border-radius:10px;
-    cursor:pointer;
-    letter-spacing:1px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
