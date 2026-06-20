@@ -100,7 +100,7 @@ window.finish = function(){
 
    
     const code =
-        "Akceptuje zadanie młody parawanie";
+        "CHODŹ ZA MNĄ";
 
     textEl.innerHTML = `
         <div class="final">
@@ -110,7 +110,7 @@ window.finish = function(){
     <b>tojtojiiicach</b>
 
             
-    POWIEDZ TO NA GŁOS: 
+    POWIEDZ NA GŁOS: 
     <b>${code}</b>
         </div>
     `;
