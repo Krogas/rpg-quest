@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-
+const place = "tojtojiiicach";
 const pages = [
 
 `
@@ -10,7 +10,7 @@ Tyle się dzieje tutaj na Pyrkonie, że kompletnie się zgubiłam…`,
 `
 Mój mąż, Loczek, powiedział, 
 że jeśli tak się stanie, będzie na mnie czekał
-przy <b>toitoijccch</b> `,
+przy <b>${place}</b> `,
 
 `
 Problem w tym, że… 
@@ -107,7 +107,7 @@ window.finish = function(){
     ✔ QUEST ACCEPTED
     Znajdź męża Nicki. 
     Mówił, że będzie przy
-    <b>tojtojiiicach</b>
+    <b>${place}</b>
 
             
     POWIEDZ NA GŁOS: 
