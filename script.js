@@ -87,7 +87,7 @@ function showConsent(){
                 udział w tej historii.
             </div>
 
-            <button class="quest-btn" onclick="finish()">
+            <button class="questAcc-btn" onclick="finish()">
                 ACCEPT QUEST
             </button>
 
@@ -105,8 +105,9 @@ window.finish = function(){
     textEl.innerHTML = `
         <div class="final">
     ✔ QUEST ACCEPTED
-    Znajdź męża Nici mówił, że 
-    będzie przy <b>tojtojiiicach</b>
+    Znajdź męża Nicki. 
+    Mówił, że będzie przy
+    <b>tojtojiiicach</b>
 
             
     POWIEDZ TO NA GŁOS: 
